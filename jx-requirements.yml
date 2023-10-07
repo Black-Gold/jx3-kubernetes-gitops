@@ -14,13 +14,13 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: kubernetes
-    registry: ghcr.io
+    registry: m.daocloud.io/ghcr.io
   environments:
   - key: dev
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "test.19950128.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
