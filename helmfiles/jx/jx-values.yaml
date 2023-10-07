@@ -30,7 +30,7 @@ jxRequirements:
     gitName: github
     gitServer: https://github.com
     provider: kubernetes
-    registry: ghcr.io
+    registry: ghcr.m.daocloud.io
   environments:
   - key: dev
   - key: staging
