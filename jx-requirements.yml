@@ -14,7 +14,7 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: kubernetes
-    registry: m.daocloud.io/ghcr.io
+    registry: ghcr.m.daocloud.io
   environments:
   - key: dev
   - key: staging
